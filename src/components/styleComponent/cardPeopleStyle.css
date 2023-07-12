@@ -1,0 +1,118 @@
+.cardPeople__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardPerson__contianer {
+  width: 20em;
+  height: 10em;
+  display: flex;
+  gap: 1em;
+  background: linear-gradient(-90deg, rgb(227, 240, 243), rgb(204, 230, 255));
+  border-radius: 0.5em;
+  position: relative;
+}
+
+.cardPerson__contianer input {
+  border: none;
+  background-color: rgba(255, 255, 255, 0.486);
+  text-align: center;
+  font-size: 1em;
+  width: auto;
+}
+.cardPerson__img {
+  min-width: 40%;
+  height: 100%;
+  padding: 1em 0 1em 0.5em;
+}
+.cardPerson-file-input {
+  min-width: 40%;
+  width: 40%;
+  height: 100%;
+  padding: 1em 0 1em 0.5em;
+}
+
+.cardPerson__viewImg {
+  width: 100%;
+  height: 100%;
+}
+.cardPerson__viewImg img {
+  width: 100%;
+  height: 100%;
+  border-radius: 0.3em;
+}
+.cardPerson__img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 0.3em;
+}
+
+.cardPerson__ul {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  padding: 0.5em;
+  padding-left: 0;
+}
+
+.cardPerson__name {
+  color: rgb(34, 34, 34);
+  width: 100%;
+  text-align: center;
+  font-weight: 700;
+  font-size: 0.8em;
+  padding: 0.5em 0 0.5em 0;
+  border-bottom: 1px solid white;
+}
+
+.cardPerson__date {
+  color: rgb(68, 68, 68);
+  padding-left: 1em;
+  font-size: 0.7em;
+  font-weight: 300;
+}
+
+.cardPerson__options {
+  position: absolute;
+  right: 0.25em;
+  width: auto;
+  bottom: 0.25em;
+  display: flex;
+  gap: 0.7em;
+  justify-content: flex-end;
+  overflow: hidden;
+  transition: 0.5s ease-in;
+}
+
+.options__close {
+  width: 2.8em;
+  transition: 0.5s ease-in;
+}
+
+.cardPerson__edit {
+  cursor: pointer;
+  background-color: rgba(211, 211, 211, 0.384);
+  border-radius: 50%;
+  font-size: 1em;
+  padding: 0.5em;
+  color: rgb(63, 63, 63);
+  transition: all 0.5s;
+}
+.cardPerson__edit:hover {
+  background-color: rgba(0, 0, 0, 0.589);
+  color: white;
+  transition: all 0.5s;
+}
+
+.cadPerson__delete:hover {
+  background-color: rgba(255, 0, 0, 0.589);
+  color: white;
+  transition: all 0.5s;
+}
+
+.cardPerson-file-input input {
+  display: none;
+}

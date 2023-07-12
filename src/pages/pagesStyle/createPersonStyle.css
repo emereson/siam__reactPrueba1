@@ -1,0 +1,99 @@
+.createPerson__container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+  padding: 1em;
+  padding-top: 6em;
+}
+
+.createPerson__container h1 {
+  padding-top: 1em;
+  color: rgb(1, 87, 185);
+  padding-bottom: 0.2em;
+  border-bottom: 2px solid rgb(1, 87, 185);
+}
+.createPerson__form {
+  display: flex;
+  flex-direction: column;
+}
+.createPerson__div {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 100%;
+  max-width: 400px;
+  min-width: 300px;
+  gap: 0.25em;
+}
+
+.createPerson__div label {
+  color: rgb(43, 79, 126);
+}
+
+.createPerson__div input {
+  border-radius: 0.5em;
+  height: 2.5em;
+  border: 2px solid rgb(43, 79, 126);
+  background-color: rgba(246, 250, 253, 0.329);
+  padding-left: 1em;
+}
+
+.createPerson__img {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+  padding-top: 1.5em;
+}
+
+.createPerson__img input {
+  display: none;
+}
+.createPerson__img img {
+  width: 10em;
+  border-radius: 0.5em;
+}
+
+.createPerson__img p {
+  width: 10em;
+  padding: 0.5em;
+  background-color: rgb(12, 141, 216);
+  border: 2px solid rgb(12, 141, 216);
+  color: white;
+  border-radius: 0.5em;
+  font-weight: 600;
+  transition: 0.5s;
+  cursor: pointer;
+  text-align: center;
+}
+
+.createPerson__img p:hover {
+  background-color: white;
+  color: rgb(12, 141, 216);
+  transition: 0.5s;
+}
+
+.create__submit {
+  width: 8em;
+  padding: 0.5em;
+  text-align: center;
+  background-color: rgb(231, 22, 22);
+  color: white;
+  border: 2px solid rgb(231, 22, 22);
+  border-radius: 0.5em;
+  font-weight: 600;
+  transition: 0.5s;
+  cursor: pointer;
+  margin: auto;
+}
+
+.create__submit:hover {
+  background-color: white;
+  color: rgb(231, 22, 22);
+  transition: 0.5s;
+}
